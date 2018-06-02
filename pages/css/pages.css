@@ -19,7 +19,8 @@ img {
     display: inline-block;
     width: 40%;
     margin-right: 50px;
-    margin-right: 5px;
+    vertical-align: top;
+    
 }
 
 .ca {

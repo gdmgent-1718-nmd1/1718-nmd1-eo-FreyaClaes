@@ -10,5 +10,183 @@
 </head>
 <body>
     <h1>Digital Styleguide</h1>
+
+    <!-- Logo -->
+    <h2 class="onder">Logo</h2>
+    <img src="images/LOGO.png" alt="logo" class="logo">
+    <!-- info logo -->
+    <div class="info">
+        <p>width: 200px</p>
+        <p>hover: opacity: 0.7</p>
+    </div>
+
+    <!-- kleuren -->
+    <h2 class="onder">Kleuren</h2>
+    <div class="kleur1">
+        <p>HSL: (352, 65%, 61%)</p>
+        <p>RGB: (220, 90, 108)</p>
+        <p>HEX: #dc5a6c</p>
+    </div>
+    <div class="kleur2">
+        <p>HSL: (350, 43%, 25.5%)</p>
+        <p>RGB: (93, 37, 46)</p>
+        <p>HEX: #5d252e
+    </div>
+    <div class="kleur3">
+        <p>HSL: (0, 0%, 100%)</p>
+        <p>RGB: (255, 255, 255)</p>
+        <p>HEX: #ffffff
+    </div>
+
+    <!-- Typografie -->
+    <h2 class="onder">Typografie</h2>
+    <h3 class="titel">Dit is een titel</h3>
+    <h5 class="otitel">Dit is een ondertitel</h5>
+    <p class="lotekst">Dit is tekst.</p>
+    <!-- info typografie -->
+    <div class="info">
+        <p>titel: 50px</p>
+        <p>ondertitel: 22px</p>
+        <p>tekst: 18px</p>
+        <p>line height: 1px</p>
+    </div>
+
+    <!-- Menubalk -->
+    <h2 class="onder">Menubalk</h2>
+    <a href="#voorstellingen" class="voorst">voorstellingen</a>
+    <a href="#ticketten" class="ticket">ticketten</a>
+    <a href="#over ons" class="over">over ons</a>
+    <a href="#audities" class="auditie">audities</a>
+    <a href="#contact" class="contact">contact</a> 
+    <div class="betalen"><a href="#betalen"><img src="images/winkelwagen.png" alt="betalen" class="bet"></a></div>
+    <div class="zoeken"><a href="#zoeken"><img src="images/loop.png" alt="zoeken" class="zoek"></a></div><br><br>
+    <!-- info menubalk -->
+    <div class="info">
+            <p>display: inline-block</p>
+            <p>verschillende breedtes</p>
+            <p>background-color: #dc5a6c</p>
+            <p>text-align: center, height: 30px</p>
+            <p>color: white, font-size: 22px</p>
+            <p>vertical-align: middle</p>
+            <p>padding-top: 5px</p>
+        </div>
+
+    <!-- Knoppen -->
+    <h2 class="onder">Knoppen</h2>
+    <form action="#email">
+        <p class="email">email: <input type="text" class="emailk" size="20" maxlength="30"></p>
+    </form>
+    <!-- info knop -->
+    <div class="info">
+        <p>border-color: #dc5a6c</p>
+        <p>border-radius: 10px</p>
+        <p>padding-left: 5px</p>
+    </div>
+    <hr>
+    <form action="#auditie">
+        <p class="lotekst">Ik zou auditie willen doen voor: 
+        <select name="audities" class="dropbox">
+            <option value="...">...</option>
+            <option value="Myself before you">Myself before you</option>
+            <option value="Easy B">Easy B</option>
+            <option value="Cluelacking">Cleulacking</option></p>
+        </select>
+    </form>
+    <!-- info knop -->
+    <div class="info">
+        <p>border-color: #dc5a6c</p>
+        <p>border-radius: 10px</p>
+        <p>padding-left: 5px</p>
+        <p>border-width: 2px</p>
+    </div>
+    <hr>
+    <form action="#cv" method="post">
+        <p class="lotekst">Upload hier je portfolio of cv: 
+            <input class="bestand" type="file" name="cv"><br>
+            <input class="verzenden" type="submit" value="verzenden">
+        </p>
+    </form>
+    <!-- info knop -->
+    <div class="info">
+        <p>border-color: #dc5a6c</p>
+        <p>background-color: #dc5a6c</p>
+        <p>color: white</p>
+        <p>border-radius: 10px</p>
+        <p>hover:</p>
+        <p>background-color: #5d252e</p>
+    </div>
+    <hr>
+    <div class="kalender"><a href="#Kalender"><p class="katekst">kalender</p></a></div>
+    <!-- info knop -->
+    <div class="info">
+        <p>tekst: color: #dc5a6c</p>
+        <p>width: 10%</p>
+        <p>margin-top-bottom: 30px</p>
+        <p>hover: font-size: 23px</p>
+        <p>shadow: 0 0 10px #dc5a6c</p>
+    </div>
+    <hr>
+    <form action="#button">
+        <input type="submit" value="Betalen" class="knbet">
+    </form>
+    <!-- info knop -->
+    <div class="info">
+        <p>border-color: #dc5a6c</p>
+        <p>border-radius: 10px</p>
+        <p>color: white</p>
+        <p>background-color: #dc5a6c</p>
+        <p>margin-top-bottom: 10px</p>
+        <p>hover: background: #5d252e</p>
+    </div>
+
+    <!-- Voorstellingen foto's -->
+    <h2 class="onder">Voorstellingen foto's</h2>
+    <div class="container">
+        <img src="images/mbf.jpeg" alt="voorstellingx" class="image">
+        <div class="overlay">
+            <a href="#betalen">
+            <div class="text"> prijs: €25,00</div>
+            </a>
+        </div>
+    </div>
+    <!-- info foto -->
+    <div class="info">
+            <p>overlay: position: abs</p>
+            <p>background-color: #dc5a6c</p>
+            <p>overflow: hidden</p>
+            <p>width: 100%</p>
+            <p>transition: .5s ease</p>
+            <p>hover: height: 20%</p>
+            <p>text:</p>
+            <p>position: absolute</p>
+            <p></p>
+            <p>top: 50%, left: 50%</p>
+            <p>transform: translate(-50%, -50%)</p>
+            <p>-ms-transform: translate(-50%, -50%)</p>
+            <p>text: hover: #5d252e</p>
+        </div>
+
+    <!-- Formulier -->
+    <h2 class="onder">Formulier</h2>
+    <fieldset>
+        <legend>Contact formulier</legend>
+        <label>naam: <br><input type="text" name="naam"></label><br>
+        <label>email: <br><input type="text" name="email"></label><br>
+        <label>bericht: <br><textarea name="bericht" cols="22" rows="10"></textarea></label><br>
+        <label class="verz"><input class="verzenden" type="submit" value="verzenden"></label><br>
+    </fieldset>
+    <!-- info formulier -->
+    <div class="info">
+            <p>kader: width: 200px</p>
+            <p>border: 1px solid #dc5a6c</p>
+            <p>border-radius: 10px</p>
+            <p>padding-left, right: 50px</p>
+            <p>titel:padding: 5px</p>
+            <p>background-color: #dc5a6c</p>
+            <p>border: 1px solid #5d252e</p>
+            <p>border-radius: 10px</p>
+            <p>color: white</p>
+            <p>knop: margin-left: 125px</p>
+        </div>
 </body>
 </html>
